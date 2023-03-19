@@ -6,9 +6,16 @@ namespace Stopwatch
     {
         static void Main(string[] args)
         {
-            Start(5);
+            Menu();
         }
-
+        static void Menu()
+        {
+            Console.Clear();
+            Console.WriteLine("S = Segundos");
+            Console.WriteLine("M = Minutos");
+            Console.WriteLine("0 = Sair");
+            Console.WriteLine("Quanto tempo deseja contar? ");
+        }
         static void Start(int time)
         {
             int currentTime = 0;
