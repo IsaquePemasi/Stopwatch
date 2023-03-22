@@ -1,1 +1,0 @@
-<h1>Download: </h1>https://github.com/IsaquePemasi/Stopwatch/raw/master/bin/Debug/net7.0/Stopwatch.exe
