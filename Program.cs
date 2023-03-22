@@ -14,7 +14,8 @@ namespace Stopwatch
             Console.WriteLine("S = Segundos => 10s = 10 segundos");
             Console.WriteLine("M = Minutos => 5m = 5 minutos");
             Console.WriteLine("0 = Sair");
-            Console.WriteLine("Quanto tempo deseja contar? ");
+            Console.WriteLine("");
+            Console.WriteLine("Quanto tempo deseja contar? (ex: 30s)");
 
             string data = Console.ReadLine().ToLower();
             char type = char.Parse(data.Substring(data.Length - 1, 1));
@@ -57,7 +58,7 @@ namespace Stopwatch
 
             Console.Clear();
             Console.WriteLine("StopWatch finalizado.");
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
             Menu();
         }
     }
